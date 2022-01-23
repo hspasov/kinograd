@@ -43,13 +43,15 @@ ExpressJS, pugJS, Bootstrap and MySQL.
 | Role        | VARCHAR(20)  | NOT NULL              |
 
 ### Movies
-| Column              | Data type    | Constraints           |
-|:-------------------:|:------------:|:---------------------:|
-| Id (AUTO_INCREMENT) | INTEGER      | NOT NULL, PRIMARY KEY |
-| Title               | VARCHAR(100) | NOT NULL              |
-| AgeRestriction      | INTEGER      | NOT NULL              |
-| Premiere            | DATE         | NOT NULL              |
-| Length              | INTEGER      | NOT NULL              |
+| Column              | Data type     | Constraints           |
+|:-------------------:|:-------------:|:---------------------:|
+| Id (AUTO_INCREMENT) | INTEGER       | NOT NULL, PRIMARY KEY |
+| Title               | VARCHAR(100)  | NOT NULL              |
+| AgeRestriction      | INTEGER       | NOT NULL              |
+| Premiere            | DATE          | NOT NULL              |
+| Length              | INTEGER       | NOT NULL              |
+| Description         | VARCHAR(1000) | NOT NULL              |
+| Image               | VARCHAR(255)  | NOT NULL              |
 
 ### Halls
 | Column              | Data type    | Constraints           |
@@ -73,7 +75,7 @@ ExpressJS, pugJS, Bootstrap and MySQL.
 | Username            | VARCHAR(15)  | NOT NULL, FOREIGN KEY REFERENCES Users(Username) |
 
 ## Contributors
-Georgi Grazhdanski
-Hristo Spasov
-Simeon Tsvetkov
+Georgi Grazhdanski\
+Hristo Spasov\
+Simeon Tsvetkov\
 Tanya Zheleva
